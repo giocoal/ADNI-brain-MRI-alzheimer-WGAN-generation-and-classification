@@ -1,3 +1,6 @@
 # Cartelle
 data/adni-images
 data/adni-mri
+ADNI/
+*.csv
+*.zip
