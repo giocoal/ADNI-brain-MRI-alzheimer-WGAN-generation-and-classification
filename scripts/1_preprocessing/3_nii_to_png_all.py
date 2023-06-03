@@ -1,8 +1,10 @@
-# Converts the volumetric data (.nii) to .png files.
-# Creates a list of all the file names, and for each instance:
-# 	Because of the complex structure of the original files, it creates a directory on the corresponding {ad, nor} png root directory
-# 	Converts the single volumetric file of a visit to multiple .png files
-# 	Keeps record of the volumetric dimensions to a .csv file
+"""
+Converts the volumetric data (.nii) to .png files.
+Creates a list of all the file names, and for each instance:
+Because of the complex structure of the original files, it creates a directory on the corresponding {ad, nor} png root directory
+Converts the single volumetric file of a visit to multiple .png files
+Keeps record of the volumetric dimensions to a .csv file
+"""
 
 import nibabel as nib
 import numpy as np

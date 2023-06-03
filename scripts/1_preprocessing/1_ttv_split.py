@@ -1,12 +1,17 @@
-# Randomly splits subjects on training, validation and test sets. 
+"""
+Randomly splits subjects on training, validation and test sets. 
+If it is specified, it also performs random undersampling to balance the classes.
+"""
+
 
 import numpy as np
 
 from os import listdir, path
 from shutil import copytree
 
+sampling_method = "full" # ["full", "random undersampling"]
 
-nii_dir = "mci" # original directories were "ad" (AD patient), "nor" (Normal) and mci (mild cognitive impairment)
+nii_dir = "nor" # ["mci", "ad", "nor"] original directories were "ad" (AD patient), "nor" (Normal) and mci (mild cognitive impairment)
 split_dir = "ttv_split_{}".format(nii_dir)
 
 nii_path = path.join("./data/adni-mri", nii_dir)
@@ -20,9 +25,15 @@ patients = listdir(nii_path)
 
 for patient in patients:
 	if "nor" in nii_dir:
-		keep_patient = np.random.rand() <= 0.8492 # to balance Normal subjects with AD patients
+		if sampling_method == "full":
+			keep_patient = True
+		elif sampling_method == "random undersampling":
+			keep_patient = np.random.rand() <= 0.8492 # to balance Normal subjects with AD patients
 	elif "mci" in nii_dir:
-		keep_patient = np.random.rand() <= 0.4975 # to balance MCI subjects with AD patients
+		if sampling_method == "full":
+			keep_patient = True 
+		elif sampling_method == "random undersampling":
+			keep_patient = np.random.rand() <= 0.4975 # to balance MCI subjects with AD patients
 	else:
 		keep_patient = True
   
