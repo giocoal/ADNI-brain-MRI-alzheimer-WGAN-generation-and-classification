@@ -5,5 +5,8 @@ ADNI/
 reports/Papers
 scripts\3_GAN\WGAN\weights
 data/generated-images
+adni-images-Full-resized160x192
+models/best_model_rand_under
+scripts/3_Resnet18_first/rand_under
 #*.csv
 *.zip

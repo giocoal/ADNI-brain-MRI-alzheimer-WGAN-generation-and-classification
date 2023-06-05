@@ -35,7 +35,7 @@ from keras.utils.data_utils import get_file
 from keras.applications.imagenet_utils import decode_predictions
 from keras.applications.imagenet_utils import preprocess_input
 #from keras.applications.imagenet_utils import _obtain_input_shape
-from keras_applications.imagenet_utils import _obtain_input_shape
+#from keras_applications.imagenet_utils import _obtain_input_shape
 
 
 
