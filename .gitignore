@@ -2,5 +2,6 @@
 data/adni-images
 data/adni-mri
 ADNI/
+reports/Papers
 #*.csv
 *.zip
