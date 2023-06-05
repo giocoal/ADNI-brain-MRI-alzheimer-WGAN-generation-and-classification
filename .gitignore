@@ -3,5 +3,7 @@ data/adni-images
 data/adni-mri
 ADNI/
 reports/Papers
+scripts\3_GAN\WGAN\weights
+data/generated-images
 #*.csv
 *.zip
