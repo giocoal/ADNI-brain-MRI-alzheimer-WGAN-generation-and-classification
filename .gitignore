@@ -8,5 +8,11 @@ data/generated-images
 adni-images-Full-resized160x192
 models/best_model_rand_under
 scripts/3_Resnet18_first/rand_under
+adni-images-Full-resized160x192-binary
+models/best_model_gan_over
+models/best_model_no_balance
+scripts/3_Resnet18_first/covidnet_no_balance
+scripts/3_Resnet18_first/gan_over
+scripts/3_Resnet18_first/no_balance
 #*.csv
 *.zip
