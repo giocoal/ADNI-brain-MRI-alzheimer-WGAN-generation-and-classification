@@ -14,5 +14,7 @@ models/best_model_no_balance
 scripts/3_Resnet18_first/covidnet_no_balance
 scripts/3_Resnet18_first/gan_over
 scripts/3_Resnet18_first/no_balance
+models
+scripts/3_Resnet18_first/no_balance_binary
 #*.csv
 *.zip
