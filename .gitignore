@@ -16,5 +16,7 @@ scripts/3_Resnet18_first/gan_over
 scripts/3_Resnet18_first/no_balance
 models
 scripts/3_Resnet18_first/no_balance_binary
+scripts/3_Resnet18_first/no_balance_under_binary
+scripts/3_Resnet18_first/binary_no_balance
 #*.csv
 *.zip
