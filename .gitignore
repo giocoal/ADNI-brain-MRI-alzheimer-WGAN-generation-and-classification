@@ -3,7 +3,8 @@ data/adni-images
 data/adni-mri
 ADNI/
 reports/Papers
-scripts\3_GAN\WGAN\weights
+scripts/3_GAN/WGAN/losses
+scripts/3_GAN/WGAN/weights
 data/generated-images
 adni-images-Full-resized160x192
 models/best_model_rand_under
@@ -18,5 +19,8 @@ models
 scripts/3_Resnet18_first/no_balance_binary
 scripts/3_Resnet18_first/no_balance_under_binary
 scripts/3_Resnet18_first/binary_no_balance
+scripts/3_Resnet18_first/binary_rand_sub_under
+models/best_model_binary_stratified_sub_under
+scripts/3_Resnet18_first/binary_stratified_sub_under
 #*.csv
 *.zip
