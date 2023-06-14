@@ -9,12 +9,13 @@
 
 ## Table of contents
 * [Abstract](#abstract)
-* [Report](https://www.slideshare.net/Giorgio469575/cxracgan-auxiliary-classifier-gan-for-conditional-generation-of-chest-xray-images-pneumonia-covid19-and-healthy-patients-255905299)
+* [Report](https://www.slideshare.net/Giorgio469575/identification-of-alzheimers-disease-using-a-deep-learning-method-based-on-t1w-brain-mri-images)
 * [Requirements](#requirements)
-* [COVIDx CXR-3: Dataset and Image Pre-processing](#covidx-cxr-3-dataset-and-image-pre-processing)
-* [AC-GAN Training and Generation](#ac-gan-training-and-generation)
-* [AC-GAN Evaluation: FID, Intra FID, Inception Score (IS), t-SNE](#ac-gan-evaluation-fid-intra-fid-inception-score-is-t-SNE)
-* [Chest X-Ray Classification: Pneumonia and COVID-19 detection with GAN augmentation](#chest-x-ray-classification-pneumonia-and-covid-19-detection-with-gan-augmentation)
+* [ADNI: Image Dataset Acquisition](#adni-image-dataset-acquisition)
+* [Image Preprocessing](#image-preprocessing)
+* [Wasserstein GAN Training and Generation](#wasserstein-gan-training-and-generation)
+* [Random and Stratified Undersampling](#random-and-stratified-undersampling)
+* [Brain MRI Classification: Alzheimer's Disease (AD) and Cognitive Normal (CN) detection](#brain-mri-classification-alzheimers-disease-ad-and-cognitive-normal-cn-detection)
 * [Status](#status)
 * [Contact](#contact)
 * [License](#license)
